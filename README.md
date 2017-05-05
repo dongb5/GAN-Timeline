@@ -6,7 +6,7 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 
 **Notice:** All dates correspond to the initial version of the submissions.
 
-**Notice:** Papers with **_"Title of this style"_** are the key papers in the development of GANs. Any suggestion about if a paper is key paper or not is welcome!
+**Notice:** Papers with **_"Title of this style"_** are the key papers in the development of GANs. Any suggestion about if a paper is key paper or not is welcome!!
 ***
 2014-06-10 | **[Theory]** Ian J. Goodfellow _et al._ **_"Generative Adversarial Networks"_**. **GAN** [arXiv](https://arxiv.org/abs/1406.2661) [code](https://github.com/goodfeli/adversarial)     
 - The adversarial nets framework of a generator and a discriminator is first proposed.  
@@ -138,7 +138,7 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 - This paper uses generated data acts as a strong regularizer for the task of similarity matching and designs a novel network based on th GAN framework that shows improvements for the one shot learning task.        
 
 2017-03-31 | **[Theory]** David Berthelot _et al._ **_"BEGAN: Boundary Equilibrium Generative Adversarial Networks"_**. **BEGAN** [arXiv](https://arxiv.org/abs/1703.10717) [code](https://github.com/wiseodd/generative-models)         
-           
+
 
 2017-03-31 | **[Theory]** Ishaan Gulrajani _et al._ **_"Improved Training of Wasserstein GANs"_** [arXiv](https://arxiv.org/abs/1704.00028) [code](https://github.com/wiseodd/generative-models)                
 - This paper outlines the ways in which weight clipping in the discriminator can lead to pathological behavior which hurts stability and performance. Then, the paper proposes _WGAN with gradient penalty_, which does not suffer from the same issues, as an alternative.       
