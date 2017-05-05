@@ -1,0 +1,161 @@
+# GAN Timeline
+
+This is a timeline showing the development of Generative Adversarial Networks. It is expected to show the evolutions and connections of ideas and to follow the most recent progress in GAN researches.
+
+The paper list partly refers to the lists in [nightrome/really-awesome-gan](https://github.com/nightrome/really-awesome-gan) and [zhangqianhui/AdversarialNetsPapers](https://github.com/zhangqianhui/AdversarialNetsPapers).
+
+**Notice:** All dates correspond to the initial version of the submissions.
+
+**Notice:** Papers with **_"Title of this style"_** are the key papers in the development of GANs. Any suggestion about if a paper is key paper or not is welcome!
+***
+2014-06-10 | **[Theory]** Ian J. Goodfellow _et al._ **_"Generative Adversarial Networks"_**. **GAN** [arXiv](https://arxiv.org/abs/1406.2661) [code](https://github.com/goodfeli/adversarial)     
+- The adversarial nets framework of a generator and a discriminator is first proposed.  
+- The framework is a two-player game that the generator is trained to generate images from inputed noises to fool the discriminator while the discriminator is trained to well discriminate real samples and fake samples.  
+- The criterion is formulated as `E_real(log(D)) + E_fake(log(1-D))`.         
+***
+2014-11-06 | **[Theory]** Mehdi Mirza and Simon Osindero. **_"Conditional Generative Adversarial Nets"_**. **CGAN** [arXiv](https://arxiv.org/abs/1411.1784) [code](https://github.com/wiseodd/generative-models)         
+- Generative adversarial nets are extended to a conditional model by conditioning both the generator and discriminator on some extra information _y_. _y_ could be any kind of auxiliary information, such as class labels, tags or attributes. the conditioning is performed by feeding _y_ into the both the discriminator and generator as additional input layer.        
+***
+2015-05-14 | **[Theory]** Gintare Karolina Dziugaite _et al._ **"Training generative neural networks via Maximum Mean Discrepancy optimization"**. [arXiv](https://arxiv.org/abs/1505.03906)                       
+***                
+2015-06-18 **[Theory]** Emily Denton _et al._ **"Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks"**. **LAPGAN** [arXiv](https://arxiv.org/abs/1506.05751) [code](https://github.com/facebook/eyescream) [blog](http://soumith.ch/eyescream/)     
+- The approach uses a cascade of convolutional networks within a Laplacian pyramid framework to generate images in a coarse-to-fine fashion.        
+***
+2015-11-18 | **[Theory]** Alireza Makhzani _et al._ **_"Adversarial Autoencoders"_**. **AAE** [arXiv](https://arxiv.org/abs/1511.05644)          
+- A probabilistic autoencoder that uses the recently proposed generative adversarial networks (GAN) to perform variational inference by matching the aggregated posterior of the hidden code vector of the autoencoder with an arbitrary prior distribution.         
+- The paper shows how the adversarial autoencoder can be used in applications such as semi-supervised classification, disentangling style and content of images, unsupervised clustering, dimensionality reduction and data visualization on on MNIST, Street View House Numbers and Toronto Face datasets.         
+
+2015-11-19 | **[Theory]** Alireza Makhzani _et al._ **_"Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks"_**. **DCGAN** [arXiv](https://arxiv.org/abs/1511.06434) [code](https://github.com/Newmu/dcgan_code) [PytorchCode](https://github.com/pytorch/examples/tree/master/dcgan) [TensorflowCode](https://github.com/carpedm20/DCGAN-tensorflow) [TorchCode](https://github.com/soumith/dcgan.torch) [KerasCode](https://github.com/jacobgil/keras-dcgan)      
+- A set of constraints on the architectural topology of Convolutional GANs, name this class of architectures Deep Convolutional GANs (DCGAN), is proposed and evaluated to make them stable to train in most settings.        
+- Many interesting visualized samples.                
+***          
+2016-02-16 | **[Theory]** Daniel Jiwoong Im _et al._ **"Generating images with recurrent adversarial networks"**. **GRAN** [arXiv](https://arxiv.org/abs/1602.05110)                 
+- The main difference between `GRAN` versus other generative adversarial models is that the generator _G_ consists of a recurrent feedback loop that takes a sequence of noise samples drawn from the prior distribution _z∼p(z)_ and draws an ouput at multiple time steps.        
+- A encoder _g(·)_ and a decoder _f(·)_ are in _G_. At each time step _t_, `C_t = f([z, g(C_t-1)])`. The final generated sample is a mergence of all the outputs of _f(·)_.       
+***  
+2016-05-31 | **[Theory]** Jeff Donahue _et al._ **"Adversarial Feature Learning"**. **BiGANs** [arXiv](https://arxiv.org/abs/1605.09782) [code](https://github.com/wiseodd/generative-models)                 
+
+***  
+2016-06-02 | **[Theory]** Vincent Dumoulin _et al._ **"Adversarially Learned Inference"**. **ALI** [arXiv](https://arxiv.org/abs/1606.00704) [code](https://github.com/wiseodd/generative-models)     
+
+
+2016-06-02 | **[Theory]** Sebastian Nowozin _et al._ **"f-GAN: Training Generative Neural Samplers using Variational Divergence Minimization"**. **f-GAN** [arXiv](https://arxiv.org/abs/1606.00709) [code](https://github.com/wiseodd/generative-models)         
+- This paper shows that the generative-adversarial approach is a special case of an existing more general variational divergence estimation approach. It shows that any f-divergence can be used for training generative neural samplers, and _Variational Divergence Minimization (VDM)_ is proposed in this paper.        
+
+2016-06-10 | **[Theory]** Tim Salimans _et al._ **_"Improved Techniques for Training GANs"_**.                  
+- Feature matching: Feature matching addresses the instability of GANs by specifying a new objective for the generator. Instead of directly maximizing the output of the discriminator, the new objective requires the generator to generate data that matches the statistics of the real data.            
+- Minibatch discrimination:         
+- Historical averaging:         
+- One-sided label smoothing:         
+- Virtual batch normalization:         
+
+
+2016-06-10 | **[Theory]** Ming-Yu Liu and Oncel Tuzel. **"Coupled Generative Adversarial Networks"**. **CoGAN** [arXiv](https://arxiv.org/abs/1606.07536) [code](https://github.com/wiseodd/generative-models)               
+- This work jointly trains two GANs by inputing a signal _Z_ into two typical generator-discriminator architectures and giving two GANs different tasks. During training, the weights of the first few layers of generators and the last few layers of discriminators are shared to learn a joint distribution of images without correspondence supervision.        
+- According to the paper, for CV applications, two tasks could be simultaneously generating realistic images and edge images, or normal color images and negative color images, using same input signal.                   
+***
+2016-09-11 | **[Theory]** Junbo Zhao _et al._ **_"Energy-based Generative Adversarial Network"_**. **EBGAN** [arXiv](https://arxiv.org/abs/1609.03126v1) [code](https://github.com/buriburisuri/ebgan)                        
+- The discriminator _D_, whose output is a scalar energy, takes either real or generated images, and estimates the energy value _E_ accordingly.         
+- This work chooses to use a margin loss as energy function, but many other choices are possible.        
+- This paper devises a regularizaer to ensure the variety of generated images to replace `Minibatch Discrimination (MBD)` since MBD is hard to implemented with energy based discriminators.         
+
+2016-09-18 | **[Theory]** Lantao Yu _et al._ **"SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient"**. **SeqGAN** [arXiv](https://arxiv.org/abs/1609.05473)         
+
+***
+2016-11-06 | **[Theory]** Shuangfei Zhai _et al._ **"Generative Adversarial Networks as Variational Training of Energy Based Models"**. **VGAN** [arXiv](https://arxiv.org/abs/1611.01799)            
+- This paper proposes `VGAN`, which works by minimizing a variational lower bound of the negative log likelihood (NLL) of an energy based model (EBM), where the model density _p(x)_ is approximated by a variational distribution _q(x)_ that is easy to sample from.            
+- It is interesting that two papers of energy-based analysis of GANs are submitted such close.               
+
+2016-11-07 | **[Theory]** Luke Metz _et al._ **"Unrolled Generative Adversarial Networks"**. [arXiv](https://arxiv.org/abs/1611.02163)        
+
+
+2016-11-13 | **[Theory]** Xudong Mao _et al._ **_"Least Squares Generative Adversarial Networks"_**. **LSGANs** [arXiv](https://arxiv.org/abs/1611.04076) [code](https://github.com/wiseodd/generative-models)                   
+- To overcome the vanishing gradients problem during the learning process, this paper proposes the Least Squares Generative Adversarial Networks (LSGANs) which adopt the least squares loss function for the discriminator.        
+- It claims that first, LSGANs are able to generate higher quality images than regular GANs. Second, LSGANs perform more stable during the learning process.        
+
+2016-11-18 | **[Theory]** Xi Chen_et al._ **"InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets"**. **InfoGAN** [arXiv](https://arxiv.org/abs/1606.03657) [code](https://github.com/wiseodd/generative-models)      
+- This paper describes `InfoGAN`, an information-theoretic extension to the Generative Adversarial Network that is able to learn disentangled representations in a completely unsupervised manner. InfoGAN is a generative adversarial network that also maximizes the mutual information between a small subset of the latent variables and the observation.       
+- `InfoGAN` successfully disentangles writing styles from digit shapes on the MNIST dataset, pose from lighting of 3D rendered images, and background digits from the central digit on the SVHN dataset. It also discovers visual concepts that include hair styles, presence/absence of eyeglasses, and emotions on the CelebA face dataset.       
+
+2016-11-18 | **[Theory]** Tarik Arici _et al._ **"Associative Adversarial Networks"**. **AANs** [arXiv](https://arxiv.org/abs/1611.06953)                    
+
+
+2016-11-21 | **[CV App]** Phillip Isola _et al._ **"Image-to-Image Translation with Conditional Adversarial Networks"**. [arXiv](https://arxiv.org/abs/1611.07004?context=cs) [code](https://github.com/phillipi/pix2pix) [PytorchCode](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)        
+- This approach is effective at synthesizing photos from label maps, reconstructing objects from edge maps, and colorizing images, among other tasks. **Semantic labels → photo**, trained on the Cityscapes dataset. **Architectural labels → photo**, trained on the CMP Facades dataset. **Map → aerial photo**, trained on data scraped from Google Maps. **BW → color photos**. **Edges → photo**, binary edges generated using the HED edge detector. **Sketch → photo**, **Day → night**.        
+- The discriminator receives the pairs consisting of sketch and real image as positive samples and the pairs consisting of sketch and fake image as negative samples.                  
+
+2016-11-21 | **[CV App]** Masaki Saito and Eiichi Matsumoto. **"Temporal Generative Adversarial Nets"**. **TGAN** [arXiv](https://arxiv.org/abs/1611.06624)       
+- The temporal generator G0 yields a set of latent variables from z0. The image generator G1 transforms them into video frames. The image discriminator D1 first extracts a feature vector from each frame. The temporal discriminator D0 exploits them and evaluates whether these frames are from the dataset or the generator.         
+
+2016-11-29 | **[Music App]** Olof Mogren. **"C-RNN-GAN: Continuous recurrent neural networks with adversarial training"**. **C-RNN-GAN** [arXiv](https://arxiv.org/abs/1611.09904)             
+- Both generator and discriminator are built by LSTM-Conv architectures. The generator receives a random variable sequence to generate fake music while the discriminator distinguishes the real and fake music samples.             
+***
+2017-12-07 | **[Theory]** Tong Che _et al._ **"Mode Regularized Generative Adversarial Networks"**. [arXiv](https://arxiv.org/abs/1612.02136) [code](https://github.com/wiseodd/generative-models)     
+- This paper argues that these bad behaviors of GANs are due to the very particular functional shape of the trained discriminators in high dimensional spaces, which can easily make training stuck or push probability mass in the wrong direction, towards that of higher concentration than that of the data generating distribution.        
+- It proposes a novel regularizer for the GAN training target. The basic idea is simple yet powerful: in addition to the gradient information provided by the discriminator, the generator is expected to take advantage of other similarity metrics with much more predictable behavior, such asthe L2 norm.                    
+- It designs a set of metrics to evaluate the generated samples in terms of both the `diversity of modes` and the distribution fairness of the probability mass. These metrics are shown to be more robust in judging complex generative models, including those which are well-trained and collapsed ones.                
+
+2016-12-13 | **[Theory]** Daniel Jiwoong Im _et al._ **"Generative Adversarial Parallelization"**. **GAP** [arXiv](https://arxiv.org/abs/1612.04021) [code](https://github.com/wiseodd/generative-models)       
+- A framework in which many GANs or their variants are trained simultaneously, exchanging their discriminators, aiming to deal with `missing mode` problem.          
+- Every iteration, each generator randomly chooses several discriminators to judge its fake outputs.          
+
+2016-12-13 | **[Theory]** Xun Huang _et al._ **"Stacked Generative Adversarial Networks"**. **SGAN** [arXiv](https://arxiv.org/abs/1612.04357)        
+- The model consists of a top-down stack of GANs, each learned to generate lower-level representations conditioned on higher-level representations.        
+- A representation discriminator is introduced at each feature hierarchy to encourage the representation manifold of the generator to align with that of the bottom-up discriminative network, leveraging the powerful discriminative representations to guide the generative model.             
+- Unlike the original GAN that uses a single noise vector to represent all the variations, `SGAN` decomposes variations into multiple levels and gradually resolves uncertainties in the top-down generative process.                
+***     
+2017-01-09 | **[Theory]** Ilya Tolstikhin _et al._ **_"AdaGAN: Boosting Generative Models"_**. **AdaGAN** [arXiv](https://arxiv.org/abs/1701.02386)     
+- Original GANs are notoriously hard to train and can suffer from the problem of _missing modes (lack of variety)_ where the model is not able to produce examples in certain regions of the space. AdaGan is an iterative procedure where at every step a new component is added into a mixture model by running a GAN algorithm on a reweighted sample. Such an incremental procedure is proved leading to convergence to the true distribution in a finite number of steps if each step is optimal.        
+
+2017-01-23 | **[Theory]** Guo-Jun Qi **"Loss-Sensitive Generative Adversarial Networks on Lipschitz Densities"**. **LS-GAN** [arXiv](https://arxiv.org/abs/1701.06264) [code](https://github.com/guojunq/lsgan/) **Generalized Loss-Sensitive GAN, GLS-GAN** [code](https://github.com/guojunq/glsgan/)                 
+- **Notice!** `Least Squares GANs, LSGANs` and `Loss-Sensitive GANs, LS-GAN`!
+- The proposed LS-GAN abandons to learn a discriminator that uses a probability to characterize the likelihood of real samples. Instead, it builds a loss function to distinguish real and generated samples by the assumption that a real example should have a smaller loss than a generated sample.             
+- The theoretical analysis presents a regularity condition on the underlying data density, which allows us to use a class of Lipschitz losses and generators to model the LS-GAN. It relaxes the assumption that the classic GAN should have infinite modeling capacity to obtain the similar theoretical guarantee. The paper also proves that the Wasserstein GAN also follows the Lipschitz constraint.        
+
+2017-01-26 | **[Theory]** Martin Arjovsky _et al._ **_"Wasserstein GAN"_**. **WGAN** [arXiv](https://arxiv.org/abs/1701.07875) [code](https://github.com/martinarjovsky/WassersteinGAN)          
+- This paper compares several distance measures, namely the _Total Variation_ (TV) distance, the _Kullback-Leibler_ (KL) divergence, the _Jensen-Shannon_ (JS) divergence, and the _Earth-Mover_ (EM, Wasserstein-1) distance, and follows the last one to formulate the criterion.  
+- The criterion is formulated as `E_real(D) - E_fake(D)`  
+- The paper claim several training tricks, such as weight clipping and using `RMSProp` instead of momentum based methods, like `Adam`.  
+***
+2017-02-27 | **[Theory]** R Devon Hjelm _et al._ **_"Boundary-Seeking Generative Adversarial Networks"_**. **BS-GAN** [arXiv](https://arxiv.org/abs/1702.08431) [code](https://github.com/wiseodd/generative-models)     
+
+
+2017-02-27 | **[CV App]** Zhifei Zhang _et al._ **_"Age Progression/Regression by Conditional Adversarial Autoencoder"_**. [arXiv](https://arxiv.org/abs/1702.08423)       
+- This paper proposes a conditional adversarial autoencoder (CAAE) that learns a face manifold, traversing on which smooth age progression and regression can be realized simultaneously. In `CAAE`, the face is first mapped to a latent vector through a convolutional encoder, and then the vector is projected to the face manifold conditional on age through a deconvolutional generator.
+***  
+2017-03-06 | **[Theory]** Zhiming Zhou _et al._ **"Generative Adversarial Nets with Labeled Data by Activation Maximization"**. **AM-GAN** [arXiv](https://arxiv.org/abs/1703.02000)         
+- This paper claims the current GAN model with labeled data still results in undesirable properties due to the overlay of the gradients from multiple classes.              
+- It argues that a better gradient should follow the intensity and direction that maximize each sample's activation on one and the only one class in each iteration, rather than weighted-averaging their gradients.        
+
+2017-03-07 | **[Theory]** Chongxuan Li _et al._ **"Triple Generative Adversarial Nets"**. **Triple-GAN** [arXiv](https://arxiv.org/abs/1703.02291)        
+
+
+2017-03-15 | **[CV App]** Taeksoo Kim _et al._ **"Learning to Discover Cross-Domain Relations with Generative Adversarial Networks"**. **DiscoGAN** [arXiv](https://arxiv.org/abs/1703.05192) [code](https://github.com/wiseodd/generative-models)         
+- This work proposes a method based on generative adversarial networks that learns to discover relations between different domains (DiscoGAN).        
+- With `DiscoGAN`, many interesting tasks can be done, such as changing hair colors of inputed face images, generating shoes based on inputed bag styles, or generating a car facing the same direction of inputed chair.        
+
+2017-03-23 | **[ML App]** Akshay Mehrotra and Ambedkar Dukkipati. **"Generative Adversarial Residual Pairwise Networks for One Shot Learning"**. [arXiv](https://arxiv.org/abs/1703.08033)         
+- This paper uses generated data acts as a strong regularizer for the task of similarity matching and designs a novel network based on th GAN framework that shows improvements for the one shot learning task.        
+
+2017-03-31 | **[Theory]** David Berthelot _et al._ **_"BEGAN: Boundary Equilibrium Generative Adversarial Networks"_**. **BEGAN** [arXiv](https://arxiv.org/abs/1703.10717) [code](https://github.com/wiseodd/generative-models)         
+           
+
+2017-03-31 | **[Theory]** Ishaan Gulrajani _et al._ **_"Improved Training of Wasserstein GANs"_** [arXiv](https://arxiv.org/abs/1704.00028) [code](https://github.com/wiseodd/generative-models)                
+- This paper outlines the ways in which weight clipping in the discriminator can lead to pathological behavior which hurts stability and performance. Then, the paper proposes _WGAN with gradient penalty_, which does not suffer from the same issues, as an alternative.       
+- The training of GAN is validated very stable and fast.  
+- You **can** use `Adam` now! And `BatchNormalization` is no longer recommended in discriminator now based on the paper.        
+***
+2017-04-12 | **[Theory]** Ruohan Wang _et al._ **"MAGAN: Margin Adaptation for Generative Adversarial Networks"**. **MAGAN** [arXiv](https://arxiv.org/abs/1704.03817) [code](https://github.com/wiseodd/generative-models)         
+- This paper proposes a novel training procedure for Generative Adversarial Networks (GANs) to improve stability and performance by using an adaptive hinge loss objective function.        
+- A simple and robust training procedure that adapts the hinge loss margin based on training statistics. The dependence on the margin hyper-parameter is removed and no new hyper-parameters to complicate training.        
+- A principled analysis of the effects of the hinge loss margin on auto-encoder GANs training.        
+
+2017-04-13 | **[CV App]** Rui Huang _et al._ **_"Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis"_**. [arXiv](https://arxiv.org/abs/1704.04086)        
+
+2017-04-17 | **[Theory]** Felix Juefei-Xu _et al._ **"Gang of GANs: Generative Adversarial Networks with Maximum Margin Ranking"**. **GoGAN** [arXiv](https://arxiv.org/abs/1704.04865)                    
+- This work aims at improving on the `WGAN` by first generalizing its discriminator loss to a margin-based one, which leads to a better discriminator, and in turn a better generator, and then carrying out a progressive training paradigm involving multiple GANs to contribute to the maximum margin ranking loss so that the GAN at later stages will improve upon early stages.        
+- `WGAN` loss treats a gap of 10 or 1 equally and it tries to increase the gap even further. The `MGAN` (Margin GAN, WGAN with margin-based discriminator loss proposed in the paper) loss will focus on increasing separation of examples with gap 1 and leave the samples with separation 10, which ensures a better discriminator, hence a better generator.        
+
+2017-04-20 | **[Theory]** Min Lin. **"Softmax GAN"**. **Softmax GAN** [arXiv](https://arxiv.org/abs/1704.06191)          
+- Softmax GAN is a novel variant of Generative Adversarial Network (GAN). The key idea of Softmax GAN is to replace the classiﬁcation loss in the original GAN with a softmax cross-entropy loss in the sample space of one single batch.        
+***  
