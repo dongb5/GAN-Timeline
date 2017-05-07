@@ -21,6 +21,10 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 2015-06-18 **[Theory]** Emily Denton _et al._ **"Deep Generative Image Models using a Laplacian Pyramid of Adversarial Networks"**. **LAPGAN** [arXiv](https://arxiv.org/abs/1506.05751) [code](https://github.com/facebook/eyescream) [blog](http://soumith.ch/eyescream/)     
 - The approach uses a cascade of convolutional networks within a Laplacian pyramid framework to generate images in a coarse-to-fine fashion.        
 ***
+2015-11-17 | **[CV App]** Michael Mathieu _et al._ **_"Deep multi-scale video prediction beyond mean square error"_**. [arXiv](https://arxiv.org/abs/1511.05440) [code](https://github.com/dyelax/Adversarial_Video_Generation)         
+- LeCun's paper.
+
+
 2015-11-18 | **[Theory]** Alireza Makhzani _et al._ **_"Adversarial Autoencoders"_**. **AAE** [arXiv](https://arxiv.org/abs/1511.05644)          
 - A probabilistic autoencoder that uses the recently proposed generative adversarial networks (GAN) to perform variational inference by matching the aggregated posterior of the hidden code vector of the autoencoder with an arbitrary prior distribution.         
 - The paper shows how the adversarial autoencoder can be used in applications such as semi-supervised classification, disentangling style and content of images, unsupervised clustering, dimensionality reduction and data visualization on on MNIST, Street View House Numbers and Toronto Face datasets.         
@@ -33,6 +37,9 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 - The main difference between `GRAN` versus other generative adversarial models is that the generator _G_ consists of a recurrent feedback loop that takes a sequence of noise samples drawn from the prior distribution _z∼p(z)_ and draws an ouput at multiple time steps.        
 - A encoder _g(·)_ and a decoder _f(·)_ are in _G_. At each time step _t_, `C_t = f([z, g(C_t-1)])`. The final generated sample is a mergence of all the outputs of _f(·)_.       
 ***  
+2016-05-17 | **[CV App]** Scott Reed _et al._ **"Generative Adversarial Text to Image Synthesis"**. [arXiv](https://arxiv.org/abs/1605.05396) [code](https://github.com/paarthneekhara/text-to-image)               
+
+
 2016-05-31 | **[Theory]** Jeff Donahue _et al._ **"Adversarial Feature Learning"**. **BiGANs** [arXiv](https://arxiv.org/abs/1605.09782) [code](https://github.com/wiseodd/generative-models)                 
 
 ***  
@@ -59,6 +66,9 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 - This work chooses to use a margin loss as energy function, but many other choices are possible.        
 - This paper devises a regularizaer to ensure the variety of generated images to replace `Minibatch Discrimination (MBD)` since MBD is hard to implemented with energy based discriminators.         
 
+2016-09-12 | **[CV App]** Jun-Yan Zhu _et al._ **_"Generative Visual Manipulation on the Natural Image Manifold"_**. **iGAN** [arXiv](https://arxiv.org/abs/1609.03552) [code](https://github.com/junyanz/iGAN) [project](http://www.eecs.berkeley.edu/%7Ejunyanz/projects/gvm/) [youtube](https://youtu.be/9c4z6YsBGQ0)        
+
+
 2016-09-18 | **[Theory]** Lantao Yu _et al._ **"SeqGAN: Sequence Generative Adversarial Nets with Policy Gradient"**. **SeqGAN** [arXiv](https://arxiv.org/abs/1609.05473)         
 
 ***
@@ -80,7 +90,8 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 2016-11-18 | **[Theory]** Tarik Arici _et al._ **"Associative Adversarial Networks"**. **AANs** [arXiv](https://arxiv.org/abs/1611.06953)                    
 
 
-2016-11-21 | **[CV App]** Phillip Isola _et al._ **"Image-to-Image Translation with Conditional Adversarial Networks"**. [arXiv](https://arxiv.org/abs/1611.07004?context=cs) [code](https://github.com/phillipi/pix2pix) [PytorchCode](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)        
+2016-11-21 | **[CV App]** Phillip Isola _et al._ **"Image-to-Image Translation with Conditional Adversarial Networks"**. [arXiv](https://arxiv.org/abs/1611.07004?context=cs) [code](https://github.com/phillipi/pix2pix) [PytorchCode](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) [project](https://phillipi.github.io/pix2pix/)       
+- Paper from `iGan` research group in UC Berkeley, a development of `iGan`.
 - This approach is effective at synthesizing photos from label maps, reconstructing objects from edge maps, and colorizing images, among other tasks. **Semantic labels → photo**, trained on the Cityscapes dataset. **Architectural labels → photo**, trained on the CMP Facades dataset. **Map → aerial photo**, trained on data scraped from Google Maps. **BW → color photos**. **Edges → photo**, binary edges generated using the HED edge detector. **Sketch → photo**, **Day → night**.        
 - The discriminator receives the pairs consisting of sketch and real image as positive samples and the pairs consisting of sketch and fake image as negative samples.                  
 
@@ -117,6 +128,9 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 - The criterion is formulated as `E_real(D) - E_fake(D)`  
 - The paper claim several training tricks, such as weight clipping and using `RMSProp` instead of momentum based methods, like `Adam`.  
 ***
+2017-02-11 | **[CV App]** Wei Ren Tan _et al._ **"ArtGAN: Artwork Synthesis with Conditional Categorical GANs"**. **ArtGAN** [arXiv](https://arxiv.org/abs/1702.03410)     
+
+
 2017-02-27 | **[Theory]** R Devon Hjelm _et al._ **_"Boundary-Seeking Generative Adversarial Networks"_**. **BS-GAN** [arXiv](https://arxiv.org/abs/1702.08431) [code](https://github.com/wiseodd/generative-models)     
 
 
@@ -137,6 +151,12 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 2017-03-23 | **[ML App]** Akshay Mehrotra and Ambedkar Dukkipati. **"Generative Adversarial Residual Pairwise Networks for One Shot Learning"**. [arXiv](https://arxiv.org/abs/1703.08033)         
 - This paper uses generated data acts as a strong regularizer for the task of similarity matching and designs a novel network based on th GAN framework that shows improvements for the one shot learning task.        
 
+2017-03-29 | **[CV App]** Jianmin Bao _et al._ **"CVAE-GAN: Fine-Grained Image Generation through Asymmetric Training"**. **CVAE-GAN** [arXiv](https://arxiv.org/abs/1703.10155)          
+
+
+2017-03-30 | **[CV App]** Jun-Yan Zhu _et al._ **"Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks"**. **CycleGAN** [arXiv](https://arxiv.org/abs/1703.10593) [code](https://github.com/junyanz/CycleGAN) [project](https://junyanz.github.io/CycleGAN/) [PytorchCode](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)        
+- Paper from `iGan` and `pix2pix` research group in UC Berkeley.        
+
 2017-03-31 | **[Theory]** David Berthelot _et al._ **_"BEGAN: Boundary Equilibrium Generative Adversarial Networks"_**. **BEGAN** [arXiv](https://arxiv.org/abs/1703.10717) [code](https://github.com/wiseodd/generative-models)         
 
 
@@ -145,6 +165,9 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 - The training of GAN is validated very stable and fast.  
 - You **can** use `Adam` now! And `BatchNormalization` is no longer recommended in discriminator now based on the paper.        
 ***
+2017-04-08 | **[CV App]** Zili Yi _et al._ **"MDualGAN: Unsupervised Dual Learning for Image-to-Image Translation"**. **MAGAN** [arXiv](https://arxiv.org/abs/1704.02510) [code](https://github.com/wiseodd/generative-models)         
+
+
 2017-04-12 | **[Theory]** Ruohan Wang _et al._ **"MAGAN: Margin Adaptation for Generative Adversarial Networks"**. **MAGAN** [arXiv](https://arxiv.org/abs/1704.03817) [code](https://github.com/wiseodd/generative-models)         
 - This paper proposes a novel training procedure for Generative Adversarial Networks (GANs) to improve stability and performance by using an adaptive hinge loss objective function.        
 - A simple and robust training procedure that adapts the hinge loss margin based on training statistics. The dependence on the margin hyper-parameter is removed and no new hyper-parameters to complicate training.        
