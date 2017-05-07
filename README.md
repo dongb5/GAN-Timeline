@@ -68,8 +68,8 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 - This work jointly trains two GANs by inputing a signal _Z_ into two typical generator-discriminator architectures and giving two GANs different tasks. During training, the weights of the first few layers of generators and the last few layers of discriminators are shared to learn a joint distribution of images without correspondence supervision.        
 - According to the paper, for CV applications, two tasks could be simultaneously generating realistic images and edge images, or normal color images and negative color images, using same input signal.                   
 ***
-2016-09-08 | **[CV app]** Carl Vondrick _et al._ **_"Generating Videos with Scene Dynamics"_**. [arXiv](https://arxiv.org/abs/1609.02612) [code](https://github.com/cvondrick/videogan) [project](http://web.mit.edu/vondrick/tinyvideo/)                        
-        
+2016-09-08 | **[CV app]** Carl Vondrick _et al._ **"Generating Videos with Scene Dynamics"**. [arXiv](https://arxiv.org/abs/1609.02612) [code](https://github.com/cvondrick/videogan) [project](http://web.mit.edu/vondrick/tinyvideo/)                        
+
 
 2016-09-11 | **[Theory]** Junbo Zhao _et al._ **_"Energy-based Generative Adversarial Network"_**. **EBGAN** [arXiv](https://arxiv.org/abs/1609.03126v1) [code](https://github.com/buriburisuri/ebgan)                        
 - The discriminator _D_, whose output is a scalar energy, takes either real or generated images, and estimates the energy value _E_ accordingly.         
@@ -93,7 +93,7 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 - This paper proposes `VGAN`, which works by minimizing a variational lower bound of the negative log likelihood (NLL) of an energy based model (EBM), where the model density _p(x)_ is approximated by a variational distribution _q(x)_ that is easy to sample from.            
 - It is interesting that two papers of energy-based analysis of GANs are submitted such close.               
 
-2016-11-06 | **[Theory]** Vittal Premachandran and Alan L. Yuille. **"UUnsupervised Learning Using Generative Adversarial Training And Clustering]"**. [ICLR2017](https://openreview.net/forum?id=SJ8BZTjeg&noteId=SJ8BZTjeg) [code](https://github.com/VittalP/UnsupGAN)       
+2016-11-06 | **[Theory]** Vittal Premachandran and Alan L. Yuille. **"Unsupervised Learning Using Generative Adversarial Training And Clustering]"**. [ICLR2017](https://openreview.net/forum?id=SJ8BZTjeg&noteId=SJ8BZTjeg) [code](https://github.com/VittalP/UnsupGAN)       
 
 
 2016-11-07 | **[Theory]** Luke Metz _et al._ **"Unrolled Generative Adversarial Networks"**. [arXiv](https://arxiv.org/abs/1611.02163)        
@@ -109,7 +109,7 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 - To overcome the vanishing gradients problem during the learning process, this paper proposes the Least Squares Generative Adversarial Networks (LSGANs) which adopt the least squares loss function for the discriminator.        
 - It claims that first, LSGANs are able to generate higher quality images than regular GANs. Second, LSGANs perform more stable during the learning process.        
 
-2016-11-18 | **[Theory]** Xi Chen_et al._ **"InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets"**. **InfoGAN** [arXiv](https://arxiv.org/abs/1606.03657) [code](https://github.com/wiseodd/generative-models)      
+2016-11-18 | **[Theory]** Xi Chen _et al._ **"InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets"**. **InfoGAN** [arXiv](https://arxiv.org/abs/1606.03657) [code](https://github.com/wiseodd/generative-models)      
 - This paper describes `InfoGAN`, an information-theoretic extension to the Generative Adversarial Network that is able to learn disentangled representations in a completely unsupervised manner. InfoGAN is a generative adversarial network that also maximizes the mutual information between a small subset of the latent variables and the observation.       
 - `InfoGAN` successfully disentangles writing styles from digit shapes on the MNIST dataset, pose from lighting of 3D rendered images, and background digits from the central digit on the SVHN dataset. It also discovers visual concepts that include hair styles, presence/absence of eyeglasses, and emotions on the CelebA face dataset.       
 
@@ -202,7 +202,7 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 2017-03-23 | **[ML App]** Akshay Mehrotra and Ambedkar Dukkipati. **"Generative Adversarial Residual Pairwise Networks for One Shot Learning"**. [arXiv](https://arxiv.org/abs/1703.08033)         
 - This paper uses generated data acts as a strong regularizer for the task of similarity matching and designs a novel network based on th GAN framework that shows improvements for the one shot learning task.        
 
-2017-03-28 | **[Speech]** Santiago Pascual _et al._ **"CSEGAN: Speech Enhancement Generative Adversarial Network"**. **SEGAN** [arXiv](https://arxiv.org/abs/1703.09452)          
+2017-03-28 | **[Speech]** Santiago Pascual _et al._ **"SEGAN: Speech Enhancement Generative Adversarial Network"**. **SEGAN** [arXiv](https://arxiv.org/abs/1703.09452)          
 
 
 2017-03-29 | **[CV App]** Jianmin Bao _et al._ **"CVAE-GAN: Fine-Grained Image Generation through Asymmetric Training"**. **CVAE-GAN** [arXiv](https://arxiv.org/abs/1703.10239)          
@@ -228,7 +228,7 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 2017-04-07 | **[CV App]** Weidong Yin _et al._ **"Semi-Latent GAN: Learning to generate and modify facial images from attributes"**. **Semi-Latent GAN** [arXiv](https://arxiv.org/abs/1704.02166)       
 
 
-2017-04-08 | **[CV App]** Zili Yi _et al._ **"MDualGAN: Unsupervised Dual Learning for Image-to-Image Translation"**. **MAGAN** [arXiv](https://arxiv.org/abs/1704.02510) [code](https://github.com/wiseodd/generative-models)         
+2017-04-08 | **[CV App]** Zili Yi _et al._ **"DualGAN: Unsupervised Dual Learning for Image-to-Image Translation"**. **MAGAN** [arXiv](https://arxiv.org/abs/1704.02510) [code](https://github.com/wiseodd/generative-models)         
 
 
 2017-04-11 | **[CV App]** Xiaolong Wang _et al._ **"A-Fast-RCNN: Hard Positive Generation via Adversary for Object Detection"**. **A-Fast-RCNN** [arXiv(CVPR2017)](https://arxiv.org/abs/1704.03414) [code](https://github.com/xiaolonw/adversarial-frcnn)         
