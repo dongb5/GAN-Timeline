@@ -37,7 +37,7 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 - The main difference between `GRAN` versus other generative adversarial models is that the generator _G_ consists of a recurrent feedback loop that takes a sequence of noise samples drawn from the prior distribution _z∼p(z)_ and draws an ouput at multiple time steps.        
 - A encoder _g(·)_ and a decoder _f(·)_ are in _G_. At each time step _t_, `C_t = f([z, g(C_t-1)])`. The final generated sample is a mergence of all the outputs of _f(·)_.       
 ***  
-2016-03-12 | **[CV App]** SDonggeun Yoo _et al._ **"Pixel-Level Domain Transfer"**. [arXiv(ECCV2016)](https://arxiv.org/abs/1603.07442) [code](https://github.com/fxia22/pldtgan)               
+2016-03-12 | **[CV App]** Donggeun Yoo _et al._ **"Pixel-Level Domain Transfer"**. [arXiv(ECCV2016)](https://arxiv.org/abs/1603.07442) [code](https://github.com/fxia22/pldtgan)               
 
 
 ***
