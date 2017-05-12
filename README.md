@@ -241,6 +241,10 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 
 2017-04-13 | **[CV App]** Rui Huang _et al._ **_"Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis"_**. [arXiv](https://arxiv.org/abs/1704.04086)        
 
+
+2017-04-17 | **[CV App]** Bo Zhao _et al._ **"Multi-View Image Generation from a Single-View"**. [arXiv](https://arxiv.org/abs/1704.04886)
+
+
 2017-04-17 | **[Theory]** Felix Juefei-Xu _et al._ **"Gang of GANs: Generative Adversarial Networks with Maximum Margin Ranking"**. **GoGAN** [arXiv](https://arxiv.org/abs/1704.04865)                    
 - This work aims at improving on the `WGAN` by first generalizing its discriminator loss to a margin-based one, which leads to a better discriminator, and in turn a better generator, and then carrying out a progressive training paradigm involving multiple GANs to contribute to the maximum margin ranking loss so that the GAN at later stages will improve upon early stages.        
 - `WGAN` loss treats a gap of 10 or 1 equally and it tries to increase the gap even further. The `MGAN` (Margin GAN, WGAN with margin-based discriminator loss proposed in the paper) loss will focus on increasing separation of examples with gap 1 and leave the samples with separation 10, which ensures a better discriminator, hence a better generator.        
@@ -248,8 +252,18 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 2017-04-19 | **[CV App]** Yijun Li _et al._ **"Generative Face Completion"**. [arXiv(CVPR2017)](https://arxiv.org/abs/1704.05838) [code](https://github.com/Yijunmaverick/GenerativeFaceCompletion)         
 
 
+2017-04-19 | **[CV App]** Jan Hendrik Metzen _et al._ **"Universal Adversarial Perturbations Against Semantic Image Segmentation"**. [arXiv](https://arxiv.org/abs/1704.05712)     
+
+
 2017-04-20 | **[Theory]** Min Lin. **"Softmax GAN"**. **Softmax GAN** [arXiv](https://arxiv.org/abs/1704.06191)          
 - Softmax GAN is a novel variant of Generative Adversarial Network (GAN). The key idea of Softmax GAN is to replace the classiﬁcation loss in the original GAN with a softmax cross-entropy loss in the sample space of one single batch.        
 
 2017-04-24 | **[CV App]** Hengyue Pan and Hui Jiang. **"Supervised Adversarial Networks for Image Saliency Detection"**. [arXiv](https://arxiv.org/abs/1704.07242)          
 ***  
+2017-05-02 | **[CV App]** Tseng-Hung Chen _et al._ **"Show, Adapt and Tell: Adversarial Training of Cross-domain Image Captioner"**. [arXiv](https://arxiv.org/abs/1705.00930)       
+
+
+2017-05-08 | **[CV App]** Jae Hyun Lim and Jong Chul Ye. **"Geometric GAN"**. [arXiv](http://arxiv.org/abs/1705.02894)       
+
+
+2017-05-08 | **[CV App]** Qiangeng Xu _et al._ **"Generative Cooperative Net for Image Generation and Data Augmentation"**. [arXiv](https://arxiv.org/abs/1705.02887)       
