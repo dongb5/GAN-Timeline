@@ -263,7 +263,16 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 2017-05-02 | **[CV App]** Tseng-Hung Chen _et al._ **"Show, Adapt and Tell: Adversarial Training of Cross-domain Image Captioner"**. [arXiv](https://arxiv.org/abs/1705.00930)       
 
 
-2017-05-08 | **[CV App]** Jae Hyun Lim and Jong Chul Ye. **"Geometric GAN"**. [arXiv](http://arxiv.org/abs/1705.02894)       
+2017-05-06 | **[CV App]** Zhimin Chen and Yuguang Tong. **"Face Super-Resolution Through Wasserstein GANs"**. [arXiv](https://arxiv.org/abs/1705.02438)       
+
+
+2017-05-08 | **[CV App]** Jae Hyun Lim and Jong Chul Ye. **"Geometric GAN"**. [arXiv](https://arxiv.org/abs/1705.02894)       
 
 
 2017-05-08 | **[CV App]** Qiangeng Xu _et al._ **"Generative Cooperative Net for Image Generation and Data Augmentation"**. [arXiv](https://arxiv.org/abs/1705.02887)       
+
+
+2017-05-09 | **[Theory]** Hyeungill Lee _et al._ **"Generative Adversarial Trainer: Defense to Adversarial Perturbations with GAN"**. [arXiv](https://arxiv.org/abs/1705.03387)       
+
+
+2017-05-14 | **[CV App]** Shuchang Zhou _et al._ **"GeneGAN: Learning Object Transfiguration and Attribute Subspace from Unpaired Data"**. **GeneGAN** [arXiv](https://arxiv.org/abs/1705.04932)       
