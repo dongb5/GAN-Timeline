@@ -164,6 +164,10 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 2017-01-09 | **[Theory]** Ilya Tolstikhin _et al._ **_"AdaGAN: Boosting Generative Models"_**. **AdaGAN** [arXiv](https://arxiv.org/abs/1701.02386)     
 - Original GANs are notoriously hard to train and can suffer from the problem of _missing modes (lack of variety)_ where the model is not able to produce examples in certain regions of the space. AdaGan is an iterative procedure where at every step a new component is added into a mixture model by running a GAN algorithm on a reweighted sample. Such an incremental procedure is proved leading to convergence to the true distribution in a finite number of steps if each step is optimal.        
 
+
+2017-01-09 | **[Theory]** Martin Arjovsky and Léon Bottou. **_"Towards Principled Methods for Training Generative Adversarial Networks"_**. [arXiv](https://arxiv.org/abs/1701.04862)  
+- Theory analysis of shortages of original GAN from the authors of `WGAN`.
+
 2017-01-23 | **[Theory]** Guo-Jun Qi **"Loss-Sensitive Generative Adversarial Networks on Lipschitz Densities"**. **LS-GAN** [arXiv](https://arxiv.org/abs/1701.06264) [code](https://github.com/guojunq/lsgan/) **Generalized Loss-Sensitive GAN, GLS-GAN** [code](https://github.com/guojunq/glsgan/)                 
 - **Notice!** `Least Squares GANs, LSGANs` and `Loss-Sensitive GANs, LS-GAN`!
 - The proposed LS-GAN abandons to learn a discriminator that uses a probability to characterize the likelihood of real samples. Instead, it builds a loss function to distinguish real and generated samples by the assumption that a real example should have a smaller loss than a generated sample.             
