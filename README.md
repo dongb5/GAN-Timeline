@@ -272,11 +272,33 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 
 2017-05-08 | **[CV App]** Jae Hyun Lim and Jong Chul Ye. **"Geometric GAN"**. [arXiv](https://arxiv.org/abs/1705.02894)       
 
-
 2017-05-08 | **[CV App]** Qiangeng Xu _et al._ **"Generative Cooperative Net for Image Generation and Data Augmentation"**. [arXiv](https://arxiv.org/abs/1705.02887)       
 
 
 2017-05-09 | **[Theory]** Hyeungill Lee _et al._ **"Generative Adversarial Trainer: Defense to Adversarial Perturbations with GAN"**. [arXiv](https://arxiv.org/abs/1705.03387)       
 
 
-2017-05-14 | **[CV App]** Shuchang Zhou _et al._ **"GeneGAN: Learning Object Transfiguration and Attribute Subspace from Unpaired Data"**. **GeneGAN** [arXiv](https://arxiv.org/abs/1705.04932)       
+2017-05-14 | **[CV App]** Shuchang Zhou _et al._ **"GeneGAN: Learning Object Transfiguration and Attribute Subspace from Unpaired Data"**. **GeneGAN** [arXiv](https://arxiv.org/abs/1705.04932)      
+
+
+2017-05-24 | **[Theory]** Aditya Grover _et al._ **"Flow-GAN: Bridging implicit and prescribed learning in generative models"**. **Flow-GAN** [arXiv](https://arxiv.org/abs/1705.08868)      
+
+2017-05-24 | **[Theory]** Shuang Liu _et al._ **"Approximation and Convergence Properties of Generative Adversarial Learning"**. [arXiv](https://arxiv.org/abs/1705.08991)      
+
+
+2017-05-25 | **[Theory]** Mathieu Sinn and Ambrish Rawat. **"Towards Consistency of Adversarial Training for Generative Models"**. [arXiv](https://arxiv.org/abs/1705.09199)      
+
+
+2017-05-27 | **[Theory]** Zihang Dai _et al._ **"Good Semi-supervised Learning that Requires a Bad GAN"**. [arXiv](https://arxiv.org/abs/1705.09783)      
+
+
+2017-05-31 | **[NLP]** Sai Rajeswar _et al._ **"Adversarial Generation of Natural Language"**. [arXiv](https://arxiv.org/abs/1705.10929)      
+
+***
+2017-06-02 | **[Theory]** Zhiting Hu _et al._ **"On Unifying Deep Generative Models"**. [arXiv](https://arxiv.org/abs/1706.00550)    
+
+2017-06-05 | **[NLP]** Ofir Press _et al._ **"Language Generation with Recurrent Generative Adversarial Networks without Pre-training"**. [arXiv](https://arxiv.org/abs/1706.01399)     
+
+2017-06-06 | **[Medical]** Yuan Xue _et al._ **"SegAN: Adversarial Network with Multi-scale L1 Loss for Medical Image Segmentation"**. **SeqAN** [arXiv](https://arxiv.org/abs/1706.01805)     
+
+2017-06-07 | **[Theory]** Swaminathan Gurumurthy _et al._ **"DeLiGAN:Generative Adversarial Networks for Diverse and Limited Data"**. **DeLiGAN** [arXiv](https://arxiv.org/abs/1706.02071)     
