@@ -293,7 +293,7 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 
 
 2017-05-31 | **[NLP]** Sai Rajeswar _et al._ **"Adversarial Generation of Natural Language"**. [arXiv](https://arxiv.org/abs/1705.10929)      
-
+- This paper gave rise to a **"discussion"** between _Yoav Goldberg_ and _Yann LeCun_ about arXiv and researches of NLP. See [Yoav Goldberg's Medium](https://medium.com/@yoav.goldberg/an-adversarial-review-of-adversarial-generation-of-natural-language-409ac3378bd7), [Yann LeCun's Facebook](https://www.facebook.com/yann.lecun/posts/10154498539442143) and [Yoav Goldberg's response](https://medium.com/@yoav.goldberg/a-response-to-yann-lecuns-response-245125295c02) for details.
 ***
 2017-06-02 | **[Theory]** Zhiting Hu _et al._ **"On Unifying Deep Generative Models"**. [arXiv](https://arxiv.org/abs/1706.00550)    
 
@@ -301,4 +301,4 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 
 2017-06-06 | **[Medical]** Yuan Xue _et al._ **"SegAN: Adversarial Network with Multi-scale L1 Loss for Medical Image Segmentation"**. **SeqAN** [arXiv](https://arxiv.org/abs/1706.01805)     
 
-2017-06-07 | **[Theory]** Swaminathan Gurumurthy _et al._ **"DeLiGAN:Generative Adversarial Networks for Diverse and Limited Data"**. **DeLiGAN** [arXiv](https://arxiv.org/abs/1706.02071)     
+2017-06-07 | **[Theory]** Swaminathan Gurumurthy _et al._ **"DeLiGAN:Generative Adversarial Networks for Diverse and Limited Data"**. **DeLiGAN** [arXiv](https://arxiv.org/abs/1706.02071) [code](https://github.com/val-iisc/deligan)    
