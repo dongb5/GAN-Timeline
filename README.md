@@ -212,7 +212,7 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 2017-03-29 | **[CV App]** Jianmin Bao _et al._ **"CVAE-GAN: Fine-Grained Image Generation through Asymmetric Training"**. **CVAE-GAN** [arXiv](https://arxiv.org/abs/1703.10239)          
 
 
-2017-03-29 | **[CV App]** Kiana Ehsani, _et al._ **"SeGAN: Segmenting and Generating the Invisible"**. **SeGAN** [arXiv](https://arxiv.org/abs/1703.10155)          
+2017-03-29 | **[CV App]** Kiana Ehsani, _et al._ **"SeGAN: Segmenting and Generating the Invisible"**. **SeGAN** [arXiv](https://arxiv.org/abs/1703.10239)          
 
 
 2017-03-30 | **[CV App]** Jun-Yan Zhu _et al._ **_"Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks"_**. **CycleGAN** [arXiv](https://arxiv.org/abs/1703.10593) [code](https://github.com/junyanz/CycleGAN) [project](https://junyanz.github.io/CycleGAN/) [PytorchCode](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)        
