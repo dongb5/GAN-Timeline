@@ -320,11 +320,11 @@ CVPR 2017 | **[Theory]** Ashish Shrivastava _et al._ **Learning From Simulated a
 
 CVPR 2017 | **[CV]** Behrooz Mahasseni _et al._ **Unsupervised Video Summarization With Adversarial LSTM Networks**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Mahasseni_Unsupervised_Video_Summarization_CVPR_2017_paper.pdf)                
 
-CVPR 2017 | **[CV]** Carl Vondrick and Antonio Torralba **Generating the Future With Adversarial Transformers**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Vondrick_Generating_the_Future_CVPR_2017_paper.pdf)                
+CVPR 2017 | **[CV]** Carl Vondrick and Antonio Torralba. **Generating the Future With Adversarial Transformers**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Vondrick_Generating_the_Future_CVPR_2017_paper.pdf)                
 
 CVPR 2017 | **[CV]** Yunchao Wei _et al._ **Object Region Mining With Adversarial Erasing: A Simple Classification to Semantic Segmentation Approach**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wei_Object_Region_Mining_CVPR_2017_paper.pdf)        
 
-CVPR 2017 | **[CV]** Shiyu Huang and Deva Ramanan **Expecting the Unexpected: Training Detectors for Unusual Pedestrians With Adversarial Imposters**. [CVPR 2017](http://10.254.1.82/cache/16/03/openaccess.thecvf.com/d8baba0c323248f4c83980e550e16426/Huang_Expecting_the_Unexpected_CVPR_2017_paper.pdf)        
+CVPR 2017 | **[CV]** Shiyu Huang and Deva Ramanan. **Expecting the Unexpected: Training Detectors for Unusual Pedestrians With Adversarial Imposters**. [CVPR 2017](http://10.254.1.82/cache/16/03/openaccess.thecvf.com/d8baba0c323248f4c83980e550e16426/Huang_Expecting_the_Unexpected_CVPR_2017_paper.pdf)        
 
 CVPR 2017 | **[CV]** VSR Veeravasarapu _et al._ **Adversarially Tuned Scene Generation**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Veeravasarapu_Adversarially_Tuned_Scene_CVPR_2017_paper.pdf)        
 
