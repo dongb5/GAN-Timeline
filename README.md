@@ -306,35 +306,35 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 2017-06-07 | **[Theory]** Swaminathan Gurumurthy _et al._ **"DeLiGAN:Generative Adversarial Networks for Diverse and Limited Data"**. **DeLiGAN** [CVPR 2017](http://10.254.1.82/cache/6/03/openaccess.thecvf.com/e029768353404049dbcac9187a363d5a/Gurumurthy_DeLiGAN__Generative_CVPR_2017_paper.pdf) [code](https://github.com/val-iisc/deligan)    
 
 ***
-CVPR 2017 | **Theory** Seyed-Mohsen Moosavi-Dezfooli _et al._ **Universal Adversarial Perturbations**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Moosavi-Dezfooli_Universal_Adversarial_Perturbations_CVPR_2017_paper.pdf)                
+CVPR 2017 | **[Theory]** Seyed-Mohsen Moosavi-Dezfooli _et al._ **Universal Adversarial Perturbations**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Moosavi-Dezfooli_Universal_Adversarial_Perturbations_CVPR_2017_paper.pdf)                
 
-CVPR 2017 | **CV** Konstantinos Bousmalis _et al._ **Unsupervised Pixel-Level Domain Adaptation With Generative Adversarial Networks**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Bousmalis_Unsupervised_Pixel-Level_Domain_CVPR_2017_paper.pdf)                
+CVPR 2017 | **[CV]** Konstantinos Bousmalis _et al._ **Unsupervised Pixel-Level Domain Adaptation With Generative Adversarial Networks**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Bousmalis_Unsupervised_Pixel-Level_Domain_CVPR_2017_paper.pdf)                
 
-CVPR 2017 | **CV** Christian Ledig _et al._ **Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf) [Torch code](https://github.com/leehomyc/Photo-Realistic-Super-Resoluton)               
+CVPR 2017 | **[CV]** Christian Ledig _et al._ **Photo-Realistic Single Image Super-Resolution Using a Generative Adversarial Network**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Ledig_Photo-Realistic_Single_Image_CVPR_2017_paper.pdf) [Torch code](https://github.com/leehomyc/Photo-Realistic-Super-Resoluton)               
 
-CVPR 2017 | **Theory** Xun Huang _et al._ **Stacked Generative Adversarial Networks**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Stacked_Generative_Adversarial_CVPR_2017_paper.pdf)                
+CVPR 2017 | **[Theory]** Xun Huang _et al._ **Stacked Generative Adversarial Networks**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Huang_Stacked_Generative_Adversarial_CVPR_2017_paper.pdf)                
 
-CVPR 2017 | **CV** Jianan Li _et al._ **Perceptual Generative Adversarial Networks for Small Object Detection**. [CVPR 2017](http://10.254.1.82/cache/17/03/openaccess.thecvf.com/9ba7d7c93977ed600605d7fbed72bb57/Li_Perceptual_Generative_Adversarial_CVPR_2017_paper.pdf)                
+CVPR 2017 | **[CV]** Jianan Li _et al._ **Perceptual Generative Adversarial Networks for Small Object Detection**. [CVPR 2017](http://10.254.1.82/cache/17/03/openaccess.thecvf.com/9ba7d7c93977ed600605d7fbed72bb57/Li_Perceptual_Generative_Adversarial_CVPR_2017_paper.pdf)                
 
-CVPR 2017 | **Theory** Ashish Shrivastava _et al._ **Learning From Simulated and Unsupervised Images Through Adversarial Training**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Shrivastava_Learning_From_Simulated_CVPR_2017_paper.pdf)                
+CVPR 2017 | **[Theory]** Ashish Shrivastava _et al._ **Learning From Simulated and Unsupervised Images Through Adversarial Training**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Shrivastava_Learning_From_Simulated_CVPR_2017_paper.pdf)                
 
-CVPR 2017 | **CV** Behrooz Mahasseni _et al._ **Unsupervised Video Summarization With Adversarial LSTM Networks**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Mahasseni_Unsupervised_Video_Summarization_CVPR_2017_paper.pdf)                
+CVPR 2017 | **[CV]** Behrooz Mahasseni _et al._ **Unsupervised Video Summarization With Adversarial LSTM Networks**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Mahasseni_Unsupervised_Video_Summarization_CVPR_2017_paper.pdf)                
 
-CVPR 2017 | **CV** Carl Vondrick and Antonio Torralba **Generating the Future With Adversarial Transformers**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Vondrick_Generating_the_Future_CVPR_2017_paper.pdf)                
+CVPR 2017 | **[CV]** Carl Vondrick and Antonio Torralba **Generating the Future With Adversarial Transformers**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Vondrick_Generating_the_Future_CVPR_2017_paper.pdf)                
 
-CVPR 2017 | **CV** Yunchao Wei _et al._ **Object Region Mining With Adversarial Erasing: A Simple Classification to Semantic Segmentation Approach**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wei_Object_Region_Mining_CVPR_2017_paper.pdf)        
+CVPR 2017 | **[CV]** Yunchao Wei _et al._ **Object Region Mining With Adversarial Erasing: A Simple Classification to Semantic Segmentation Approach**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wei_Object_Region_Mining_CVPR_2017_paper.pdf)        
 
-CVPR 2017 | **CV** Shiyu Huang and Deva Ramanan **Expecting the Unexpected: Training Detectors for Unusual Pedestrians With Adversarial Imposters**. [CVPR 2017](http://10.254.1.82/cache/16/03/openaccess.thecvf.com/d8baba0c323248f4c83980e550e16426/Huang_Expecting_the_Unexpected_CVPR_2017_paper.pdf)        
+CVPR 2017 | **[CV]** Shiyu Huang and Deva Ramanan **Expecting the Unexpected: Training Detectors for Unusual Pedestrians With Adversarial Imposters**. [CVPR 2017](http://10.254.1.82/cache/16/03/openaccess.thecvf.com/d8baba0c323248f4c83980e550e16426/Huang_Expecting_the_Unexpected_CVPR_2017_paper.pdf)        
 
-CVPR 2017 | **CV** VSR Veeravasarapu _et al._ **Adversarially Tuned Scene Generation**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Veeravasarapu_Adversarially_Tuned_Scene_CVPR_2017_paper.pdf)        
+CVPR 2017 | **[CV]** VSR Veeravasarapu _et al._ **Adversarially Tuned Scene Generation**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Veeravasarapu_Adversarially_Tuned_Scene_CVPR_2017_paper.pdf)        
 
-CVPR 2017 | **CV** Xiaolong Wang _et al._ **A-Fast-RCNN: Hard Positive Generation via Adversary for Object Detection**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_A-Fast-RCNN_Hard_Positive_CVPR_2017_paper.pdf)        
+CVPR 2017 | **[CV]** Xiaolong Wang _et al._ **A-Fast-RCNN: Hard Positive Generation via Adversary for Object Detection**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Wang_A-Fast-RCNN_Hard_Positive_CVPR_2017_paper.pdf)        
 
-CVPR 2017 | **CV** Mengmi Zhang _et al._ **Deep Future Gaze: Gaze Anticipation on Egocentric Videos Using Adversarial Networks**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Deep_Future_Gaze_CVPR_2017_paper.pdf)        
+CVPR 2017 | **[CV]** Mengmi Zhang _et al._ **Deep Future Gaze: Gaze Anticipation on Egocentric Videos Using Adversarial Networks**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Deep_Future_Gaze_CVPR_2017_paper.pdf)        
 
-CVPR 2017 | **CV** Zhifei Zhang _et al._ **Age Progression/Regression by Conditional Adversarial Autoencoder**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Age_ProgressionRegression_by_CVPR_2017_paper.pdf)        
+CVPR 2017 | **[CV]** Zhifei Zhang _et al._ **Age Progression/Regression by Conditional Adversarial Autoencoder**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Zhang_Age_ProgressionRegression_by_CVPR_2017_paper.pdf)        
 
-CVPR 2017 | **CV** Takuhiro Kaneko _et al._ **Generative Attribute Controller With Conditional Filtered Generative Adversarial Networks**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Kaneko_Generative_Attribute_Controller_CVPR_2017_paper.pdf)        
+CVPR 2017 | **[CV]** Takuhiro Kaneko _et al._ **Generative Attribute Controller With Conditional Filtered Generative Adversarial Networks**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Kaneko_Generative_Attribute_Controller_CVPR_2017_paper.pdf)        
 
-CVPR 2017 | **Theory** Eric Tzeng _et al._ **Adversarial Discriminative Domain Adaptation**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tzeng_Adversarial_Discriminative_Domain_CVPR_2017_paper.pdf)        
+CVPR 2017 | **[Theory]** Eric Tzeng _et al._ **Adversarial Discriminative Domain Adaptation**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tzeng_Adversarial_Discriminative_Domain_CVPR_2017_paper.pdf)        
 ***
