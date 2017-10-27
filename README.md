@@ -338,3 +338,45 @@ CVPR 2017 | **[CV]** Takuhiro Kaneko _et al._ **Generative Attribute Controller 
 
 CVPR 2017 | **[Theory]** Eric Tzeng _et al._ **Adversarial Discriminative Domain Adaptation**. [CVPR 2017](http://openaccess.thecvf.com/content_cvpr_2017/papers/Tzeng_Adversarial_Discriminative_Domain_CVPR_2017_paper.pdf)        
 ***
+ICCV 2017 | **[CV]** Yu Chen _et al._ **Adversarial PoseNet: A Structure-Aware Convolutional Network for Human Pose Estimation**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Chen_Adversarial_PoseNet_A_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Jun-Yan Zhu _et al._ **Unpaired Image-To-Image Translation Using Cycle-Consistent Adversarial Networks**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhu_Unpaired_Image-To-Image_Translation_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Weiyue Wang _et al._ **Shape Inpainting Using 3D Generative Adversarial Network and Recurrent Convolutional Networks**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Wang_Shape_Inpainting_Using_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[Theory]** Xudong Mao _et al._ **Least Squares Generative Adversarial Networks**. **LSGANs** [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Mao_Least_Squares_Generative_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[Theory]** Masaki Saito _et al._ **Temporal Generative Adversarial Nets With Singular Value Clipping**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Saito_Temporal_Generative_Adversarial_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Rakshith Shetty _et al._ **Speaking the Same Language: Matching Machine to Human Captions by Adversarial Training**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Shetty_Speaking_the_Same_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Hsiao-Yu Fish Tung _et al._ **Adversarial Inverse Graphics Networks: Learning 2D-To-3D Lifting and Image-To-Image Translation From Unpaired Supervision**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Tung_Adversarial_Inverse_Graphics_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Vu Nguyen _et al._ **Shadow Detection With Conditional Generative Adversarial Networks**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Nguyen_Shadow_Detection_With_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Leonardo Galteri _et al._ **Deep Generative Adversarial Compression Artifact Removal**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Galteri_Deep_Generative_Adversarial_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Nasim Souly _et al._ **Semi Supervised Semantic Segmentation Using Generative Adversarial Network**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Souly__Semi_Supervised_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Hao Dong _et al._ **Semantic Image Synthesis via Adversarial Learning**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Dong_Semantic_Image_Synthesis_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Han Zhang _et al._ **StackGAN: Text to Photo-Realistic Image Synthesis With Stacked Generative Adversarial Networks**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zhang_StackGAN_Text_to_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Xiaodan Liang _et al._ **Dual Motion GAN for Future-Flow Embedded Video Prediction**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Liang_Dual_Motion_GAN_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Anton Osokin _et al._ **GANs for Biological Image Synthesis**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Osokin_GANs_for_Biological_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Rui Huang _et al._ **_Beyond Face Rotation: Global and Local Perception GAN for Photorealistic and Identity Preserving Frontal View Synthesis_**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Huang_Beyond_Face_Rotation_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[Theory]** Jianmin Bao _et al._ **CVAE-GAN: Fine-Grained Image Generation Through Asymmetric Training**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Bao_CVAE-GAN_Fine-Grained_Image_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Zili Yi _et al._ **DualGAN: Unsupervised Dual Learning for Image-To-Image Translation**. **DualGAN** [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Yi_DualGAN_Unsupervised_Dual_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Bo Dai _et al._ **Towards Diverse and Natural Image Descriptions via a Conditional GAN**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Dai_Towards_Diverse_and_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV-Text]** Xiaodan Liang _et al._ **Recurrent Topic-Transition GAN for Visual Paragraph Generation**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Liang_Recurrent_Topic-Transition_GAN_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Zhedong Zheng _et al._ **Unlabeled Samples Generated by GAN Improve the Person Re-Identification Baseline in Vitro**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Zheng_Unlabeled_Samples_Generated_ICCV_2017_paper.pdf)          
+
+ICCV 2017 | **[CV]** Kyle Olszewski _et al._ **Realistic Dynamic Facial Textures From a Single Image Using GANs**. [ICCV 2017](http://openaccess.thecvf.com/content_ICCV_2017/papers/Olszewski_Realistic_Dynamic_Facial_ICCV_2017_paper.pdf)          
+  
