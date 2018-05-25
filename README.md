@@ -429,3 +429,6 @@ AAAI 2018 | **[ML]** Zhangjie Cao _et al._ **"Transfer Adversarial Hashing for H
 AAAI 2018 | **[CV]** Gaurav Goswami _et al._ **"Unravelling Robustness of Deep Learning based Face Recognition Against Adversarial Attacks"**.            
 
 AAAI 2018 | **[ML]** Jian Zhang _et al._ **"Unsupervised Generative Adversarial Cross-modal Hashing"**.            
+***
+
+2018-05-21 | **[Theory]** Han Zhang, **Ian Goodfellow** _et al._ **_"Self-Attention Generative Adversarial Networks"_**. [arXiv](https://arxiv.org/pdf/1805.08318)          
