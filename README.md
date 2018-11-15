@@ -432,3 +432,5 @@ AAAI 2018 | **[ML]** Jian Zhang _et al._ **"Unsupervised Generative Adversarial 
 ***
 
 2018-05-21 | **[Theory]** Han Zhang, **Ian Goodfellow** _et al._ **_"Self-Attention Generative Adversarial Networks"_**. [arXiv](https://arxiv.org/pdf/1805.08318)          
+
+2018-09-28 | **[Theory]** Andrew Brock _et al._ **_"Large Scale GAN Training for High Fidelity Natural Image Synthesis"_**. [arXiv](https://arxiv.org/abs/1809.11096?context=cs.LG) [Colab](https://colab.research.google.com/github/tensorflow/hub/blob/master/examples/colab/biggan_generation_with_tf_hub.ipynb#scrollTo=Cd1dhL4Ykbm7) [demo](https://tfhub.dev/s?q=biggan)          
