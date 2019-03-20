@@ -210,8 +210,7 @@ The paper list partly refers to the lists in [nightrome/really-awesome-gan](http
 
 2017-03-28 | **[Speech]** Santiago Pascual _et al._ **"SEGAN: Speech Enhancement Generative Adversarial Network"**. **SEGAN** [arXiv](https://arxiv.org/abs/1703.09452)          
 
-
-2017-03-29 | **[CV App]** Jianmin Bao _et al._ **"CVAE-GAN: Fine-Grained Image Generation through Asymmetric Training"**. **CVAE-GAN** [arXiv](https://arxiv.org/abs/1703.10239)          
+       
 
 
 2017-03-29 | **[CV App]** Kiana Ehsani, _et al._ **"SeGAN: Segmenting and Generating the Invisible"**. **SeGAN** [arXiv](https://arxiv.org/abs/1703.10239)          
